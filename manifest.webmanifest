@@ -1,0 +1,9 @@
+{
+  "name": "TOQO Battle Royale",
+  "short_name": "TOQO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101b2a",
+  "theme_color": "#101b2a",
+  "icons": []
+}

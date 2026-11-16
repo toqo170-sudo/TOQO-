@@ -1,0 +1,6 @@
+{
+  "appId": "com.toqo.battleroyale",
+  "appName": "TOQO Battle Royale",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

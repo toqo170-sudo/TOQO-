@@ -1,0 +1,23 @@
+{
+  "name": "toqo-battle-royale",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node server/server.js",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "cap:sync": "npm run build && cap sync android",
+    "android:add": "cap add android"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "ws": "^8.18.0",
+    "@capacitor/core": "^7.4.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "@capacitor/cli": "^7.4.0"
+  }
+}
